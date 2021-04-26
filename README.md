@@ -1,15 +1,13 @@
 # vite-plugin-transform-css-modules
 🌈🌈🌈 transform not module.(css|scss|less) to css module
 
-# 安装
+# 安装(install)
 
 ```
 yarn add vite-plugin-transform-css-modules -D
 ```
 
-# 使用方式
-
-
+# 使用方式(usage)
 
 ```js
 import { defineConfig } from 'vite'
@@ -22,5 +20,8 @@ export default defineConfig({
     vitePluginTransformCssModules()
   ]
 })
-
 ```
+
+## 例子(example)
+
+[https://github.com/Summer-andy/vite-react-template](https://github.com/Summer-andy/vite-react-template)
