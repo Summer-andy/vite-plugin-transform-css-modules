@@ -1,10 +1,11 @@
 {
   "name": "vite-plugin-transform-css-modules",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🌈🌈🌈 transform not module.(css|scss|less) to css module",
-  "main": "src/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn run rollup -c"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/Summer-andy/vite-plugin-transform-css-modules#readme",
   "dependencies": {
     "@babel/core": "^7.13.16"
+  },
+  "devDependencies": {
+    "rollup": "^2.45.2"
   }
 }
