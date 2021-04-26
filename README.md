@@ -22,6 +22,6 @@ export default defineConfig({
 })
 ```
 
-## 例子(example)
+# 例子(example)
 
 [https://github.com/Summer-andy/vite-react-template](https://github.com/Summer-andy/vite-react-template)
